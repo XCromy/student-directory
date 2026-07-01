@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 function App() {
   const [students] = useState([
     { id: 1, name: "Ahmed", age: 20, grade: "C", email: "ahmed@gmail.com" },
-    { id: 2, name: "Sara", age: 21, grade: "B", email: "sara@gmaiil.com" },
+    { id: 2, name: "Sara", age: 21, grade: "B", email: "sara@gmail.com" },
     { id: 3, name: "HoSSaM", age: 22, grade: "A", email: "hossam@gmail.com" },
     { id: 4, name: "Doaa", age: 22, grade: "A", email: "doaa@gmail.com" },
   ]);
@@ -19,7 +19,6 @@ function App() {
   });
 
   return (
-    // الخلفية الأساسية للموقع غامقة
     <div className="min-h-screen bg-gray-900 p-6 text-gray-100">
       <div className="max-w-xl mx-auto">
         <h1 className="text-3xl font-bold mb-6 text-white text-center">Student Directory</h1>
